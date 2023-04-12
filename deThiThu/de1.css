@@ -1,0 +1,47 @@
+body{
+    width: 100%;
+}
+.container{
+    max-width: 100%;
+    display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto;
+  background-color: #d9a8c9;
+  padding: 10px;
+}
+.item1{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 0.5em;
+    text-align: center;
+    margin: 10px;
+}
+.item2{
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    font-size: 30px;
+    float: left;
+    margin: 10px;
+}
+.container .item1 img{
+width: 100%;
+height: 100%;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: aqua;
+    height: 4em;
+    padding-top: 10px;
+}
+@media screen and (max-with: 600px) {
+body{
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+}
